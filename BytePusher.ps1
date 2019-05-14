@@ -69,7 +69,6 @@ while ($true)
     # https://esolangs.org/wiki/BytePusher#Memory_map
     $instruction = 0
     $pc          = (([UInt32]$memory[2]) -shl 16) -bor (([UInt32]$memory[3]) -shl 8) -bor [UInt32]$memory[4]
-    $pc          = (([UInt32]$memory[2]) -shl 16) -bor (([UInt32]$memory[3]) -shl 8) -bor [UInt32]$memory[4]
 
     do
     {
